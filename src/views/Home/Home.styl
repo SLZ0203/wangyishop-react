@@ -1,0 +1,124 @@
+@import "../../assets/stylus/mixins.styl"
+.headerWrap
+  width 100%
+  position fixed
+  top 0
+  z-index 100
+  background #fff
+  .shopSearch
+    width 100%
+    padding 4px 0 0 26px
+    box-sizing border-box
+    display flex
+    position relative
+    h3
+      font-family "楷体"
+      font-weight 500
+      font-size 40px
+      float left
+      line-height 80px
+    input
+      background #eee
+      height 60px
+      width 68%
+      margin 6px 0 0 40px
+      font-size 28px
+      border-radius 10px
+      padding-left 75px
+      box-sizing border-box
+    .iconfont
+      font-size 35px
+      position absolute
+      left 31%
+      top 27%
+  .swiperWrap
+    display flex
+    .shopNav
+      display flex
+      li
+        width 125px
+        text-align: center
+        color: #333
+        line-height 60px
+        font-size 32px
+        &.active
+          border-bottom 6px solid $red
+          color: $red
+
+.scrollWrap
+  height 1200px
+  .homeContainer
+    width 100%
+    padding-bottom 122px
+    .swipeWrap
+      width 100%
+      height 420px
+      margin-top 156px
+      .swiper-container
+        img
+          height 350px
+          width 100%
+        .swiper-pagination-bullet
+          width 38px
+          height 6px
+          border-radius 0
+          background #fff
+          opacity .4
+        .swiper-pagination-bullet-active
+          opacity 1
+          background #fff
+          border-radius 0
+      .shopPromise
+        padding 0 20px
+        background #fff
+        display flex
+        align-items center
+        li
+          height 70px
+          width 33%
+          line-height 40px
+          .iconfont
+            color red
+            font-size 28px
+          span
+            font-size 28px
+    .shopList
+      background #fff
+      margin 20px 0
+      padding 10px
+      .title
+        font-size 28px
+        height 100px
+        line-height 100px
+        text-align: center
+      .brand
+        width 100%
+        clearFix()
+        li
+          float left
+          width 48.5%
+          height 50%
+          background #f4f4f4
+          margin 4px
+          position relative
+          .info
+            position absolute
+            left 20px
+            top 20px
+            p
+              font-size 26px
+              padding-bottom 16px
+            span
+              .iconfont
+                font-size 56px
+                color: rosybrown
+          img
+            width 354px
+            height 238px
+
+    .boonWrap
+      width 100%
+      height 300px
+      margin-bottom 20px
+      background-image url(http://yanxuan.nosdn.127.net/a3ea2d1108c94c7dece05eddf95f6df5.jpg)
+      background-size 100%

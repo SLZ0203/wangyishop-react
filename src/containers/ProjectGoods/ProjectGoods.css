@@ -1,0 +1,53 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.projectGoods {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.projectGoods .pro_title {
+  font-size: 32px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projectGoods .pro_title .iconfont {
+  font-size: 32px;
+}
+.projectGoods .pro_wrap {
+  width: 100%;
+  display: flex;
+}
+.projectGoods .pro_wrap .pro_list {
+  display: flex;
+  padding: 0 30px 30px 30px;
+  box-sizing: border-box;
+}
+.projectGoods .pro_wrap .pro_list .pro_item {
+  width: 576px;
+  margin-right: 24px;
+}
+.projectGoods .pro_wrap .pro_list .pro_item img {
+  width: 100%;
+}
+.projectGoods .pro_wrap .pro_list .pro_item .pro_name {
+  margin: 20px 0;
+  font-size: 28px;
+}
+.projectGoods .pro_wrap .pro_list .pro_item .pro_name .price {
+  float: right;
+  color: #b4282d;
+}
+.projectGoods .pro_wrap .pro_list .pro_item .pro_msg {
+  font-size: 24px;
+  color: #666;
+}

@@ -1,28 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import {Route, Switch} from 'react-router-dom';
 
-class App extends Component {
+import Home from './views/Home/Home'
+import Classify from './views/Classify/Classify'
+import Recommend from './views/Recommend/Recommend'
+import Cart from './views/Cart/Cart'
+import Person from './views/Person/Person'
+import FooterGuide from './containers/FooterGuide/FooterGuide'
+
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+      <section>
+        <Switch>
+          <Route path='/home' component={Home}/>
+          <Route path='/classify' component={Classify}/>
+          <Route path='/recommend' component={Recommend}/>
+          <Route path='/cart' component={Cart}/>
+          <Route path='/person' component={Person}/>
+        </Switch>
+        <FooterGuide/>
+      </section>
+    )
   }
 }
-
-export default App;

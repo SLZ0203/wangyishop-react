@@ -1,0 +1,65 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.loginTypes {
+  width: 100%;
+  height: 100%;
+  margin-top: 90px;
+}
+.loginTypes .iconfont {
+  font-size: 32px;
+}
+.loginTypes .logoWrap {
+  text-align: center;
+  padding: 160px 0;
+}
+.loginTypes .logoWrap img {
+  width: 268px;
+  height: 90px;
+}
+.loginTypes .btnWrap {
+  padding: 0 40px;
+  margin-bottom: 206px;
+}
+.loginTypes .btnWrap .loginWay {
+  width: 670px;
+  height: 90px;
+  line-height: 90px;
+  font-size: 28px;
+  margin-bottom: 32px;
+  text-align: center;
+  border: 2px solid #b4282d;
+}
+.loginTypes .btnWrap .phone {
+  background: #b4282d;
+  color: #fff;
+}
+.loginTypes .btnWrap .email {
+  color: #b4282d;
+}
+.loginTypes .btnWrap .register {
+  border: 0;
+  color: #333;
+}
+.other {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 160px;
+  text-align: center;
+}
+.other .itemWrap {
+  width: 30%;
+  font-size: 32px;
+  text-align: center;
+  padding: 0 40px;
+  border-right: 2px solid #979797;
+  color: #7f7f7f;
+}

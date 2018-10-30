@@ -1,0 +1,74 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.classWrap {
+  width: 100%;
+  height: 1156px;
+}
+.classWrap .search {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  height: 88px;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+.classWrap .search .text {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #eee;
+  border-radius: 12px;
+  margin-top: 16px;
+  text-align: center;
+  font-size: 28px;
+  color: #7e8c8d;
+}
+.classWrap .search .text .iconfont {
+  font-size: 32px;
+}
+.classWrap .navWrap {
+  width: 160px;
+  height: 1160px;
+  margin-top: 90px;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-right: 2px;
+}
+.classWrap .navWrap .list {
+  width: 100%;
+  padding-top: 34px;
+}
+.classWrap .navWrap .list li {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 26px;
+  text-align: center;
+  border: none;
+  margin-bottom: 60px;
+}
+.classWrap .navWrap .list li.on {
+  border-left: 4px solid #b4282d;
+  color: #b4282d;
+}
+.classWrap .scrollWrap {
+  height: 100%;
+  width: 586px;
+  margin: 90px 0 0 164px;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 30px 30px 20px 30px;
+}

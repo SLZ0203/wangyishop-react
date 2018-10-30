@@ -1,0 +1,59 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.classify {
+  background: #fff;
+}
+.classify .itemClass {
+  margin-bottom: 30px;
+}
+.classify .itemClass .title {
+  text-align: center;
+  height: 60px;
+  line-height: 100px;
+}
+.classify .itemClass .title .intro {
+  font-size: 32px;
+  color: #333;
+}
+.classify .itemClass .every {
+  width: 100%;
+  *zoom: 1;
+}
+.classify .itemClass .every::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.classify .itemClass .every .everyItem {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 10px 14px 20px;
+  float: left;
+}
+.classify .itemClass .every .everyItem img {
+  width: 100%;
+}
+.classify .itemClass .every .everyItem .info {
+  height: 60px;
+  line-height: 50px;
+  font-size: 24px;
+  text-align: center;
+  background: #f1ece2;
+  color: #9f8a60;
+}
+.classify .itemClass .every .everyItem .name {
+  margin: 26px 0 16px;
+  font-size: 28px;
+}
+.classify .itemClass .every .everyItem .pirce {
+  font-size: 32px;
+  color: #b4282d;
+}

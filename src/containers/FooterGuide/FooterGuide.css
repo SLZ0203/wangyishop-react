@@ -1,0 +1,38 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.footer_guide {
+  width: 100%;
+  background: #fafafa;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  padding: 10px 0;
+}
+.footer_guide div {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer_guide div.on .guide_item {
+  color: #b4282d;
+}
+.footer_guide div .guide_item {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #666;
+  font-size: 28px;
+}
+.footer_guide div .guide_item .iconfont {
+  font-size: 40px;
+}
